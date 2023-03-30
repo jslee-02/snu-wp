@@ -48,10 +48,10 @@ function drawWinner() {
 }
 
   
-  // 초기화 버튼 클릭 시 실행되는 함수
-  function reset() {
+// 초기화 버튼 클릭 시 실행되는 함수
+function reset() {
   participants = [];
   winner = '';
   renderParticipants();
   winnerElement.textContent = '';
-  }
+}
