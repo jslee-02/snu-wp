@@ -1,7 +1,7 @@
 class Animal {
-    constructor(name) {
-      this.name = name;
-    }
+	constructor(name) {
+		this.name = name;
+	}
 
 	speak() {
 		console.log(`${this.name}이(가) 소리를 냅니다.`);
@@ -10,15 +10,15 @@ class Animal {
 
 class Dog extends Animal {
 	constructor(name) {
-	  super(name);
+		super(name);
 	}
-  
+
 	speak() {
-	  console.log(`${this.name}이(가) 멍멍 짖습니다.`);
+		console.log(`${this.name}이(가) 멍멍 짖습니다.`);
 	}
-  
+
 	fetch() {
-	  console.log(`${this.name}이(가) 공을 가져옵니다.`);
+		console.log(`${this.name}이(가) 공을 가져옵니다.`);
 	}
 }
 
@@ -43,4 +43,3 @@ dog.speak();
 cat.speak();
 dog.fetch();
 cat.box();
-  
